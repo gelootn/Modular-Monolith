@@ -1,0 +1,12 @@
+﻿using FluentValidation;
+
+namespace ModularMonolith.Modules.Companies.Commands.Companies.UpdateCompany;
+
+public class UpdateCompanyCommandValidator : AbstractValidator<UpdateCompanyCommand>
+{
+    public UpdateCompanyCommandValidator()
+    {
+        RuleFor(x => x.Id).GreaterThan(0);
+        RuleFor(x => x.Name).NotEmpty().MinimumLength(3);
+    }
+}

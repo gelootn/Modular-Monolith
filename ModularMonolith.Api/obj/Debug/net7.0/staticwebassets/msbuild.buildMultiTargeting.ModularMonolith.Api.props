@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ModularMonolith.Api.props" />
+</Project>

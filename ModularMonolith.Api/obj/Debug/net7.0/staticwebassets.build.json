@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eUU20qKYRycIGN2A9CYnVe9jn5y7joOlq/QzzKDAlK4=",
+  "Source": "ModularMonolith.Api",
+  "BasePath": "_content/ModularMonolith.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
