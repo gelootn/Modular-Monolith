@@ -17,10 +17,7 @@ public static class ModuleConfiguration
         services.AddDbContext<CompanyDbContext>(
             cfg =>
             {
-                cfg.UseSqlServer(connectionString, x=>
-                {
-                    x.MigrationsHistoryTable("__CompanyMigrationsHistory", "Company");
-                });
+                cfg.UseSqlServer(connectionString);
             });
 
         services.AddScoped<ICompanyRepository, CompanyRepository>();

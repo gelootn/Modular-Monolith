@@ -2918,11 +2918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
+      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
       "projectName": "ModularMonolith.Modules.Companies",
-      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
+      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\obj\\",
+      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2939,11 +2939,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj": {
-              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj"
+            "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj": {
+              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj"
             },
-            "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj": {
-              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj"
+            "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj": {
+              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj"
             }
           }
         }

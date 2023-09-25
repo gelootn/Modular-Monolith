@@ -2623,11 +2623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj",
+      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj",
       "projectName": "ModularMonolith.Framework",
-      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj",
+      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Framework\\ModularMonolith.Framework.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Framework\\obj\\",
+      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",

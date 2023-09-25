@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P0OTDVNq87T93HxBIz6jU0c6sBWzB2YZbm29T5ync8OMRe7eyB3JjYw1azzqCVZChLQC2s7pkTijMLKHdW1tiA==",
+  "dgSpecHash": "0F9yFz8Frm3FWmYK2YxWWuxbT13DsH3HjjbqSQaDD9hr7f3VhLZpq/b7uw7EvSlAdg4uoE2xd4bXruuAy3/qMw==",
   "success": true,
-  "projectFilePath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj",
+  "projectFilePath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Entities\\ModularMonolith.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

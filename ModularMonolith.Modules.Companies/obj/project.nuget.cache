@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HuYF47UtDQH77vkd5Yi3pBp6uM1d01AgHwLYoOAwCTzPWQzDmhGooTxUIRJix3OzrYNL/Xa0UjUQTVbZiPek0A==",
+  "dgSpecHash": "qarAy03TeoU4s4zIClKHeTo+qEHsumZpk9wPaVjsdK8WYl0Lgd97jFrxZiNlmEdrWaf7q2asf1mThai7qvw2Fg==",
   "success": true,
-  "projectFilePath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
+  "projectFilePath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

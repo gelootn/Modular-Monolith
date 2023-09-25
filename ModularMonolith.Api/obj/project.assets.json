@@ -3590,11 +3590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Api\\ModularMonolith.Api.csproj",
+      "projectUniqueName": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Api\\ModularMonolith.Api.csproj",
       "projectName": "ModularMonolith.Api",
-      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Api\\ModularMonolith.Api.csproj",
+      "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Api\\ModularMonolith.Api.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Api\\obj\\",
+      "outputPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3611,11 +3611,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj": {
-              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj"
+            "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj": {
+              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Companies\\ModularMonolith.Modules.Companies.csproj"
             },
-            "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Visits\\ModularMonolith.Modules.Visits.csproj": {
-              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\ModularMonolith\\ModularMonolith.Modules.Visits\\ModularMonolith.Modules.Visits.csproj"
+            "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Visits\\ModularMonolith.Modules.Visits.csproj": {
+              "projectPath": "C:\\@DATA\\Sourcecode\\Private\\Modular-Monolith\\ModularMonolith.Modules.Visits\\ModularMonolith.Modules.Visits.csproj"
             }
           }
         }
