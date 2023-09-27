@@ -81,6 +81,37 @@ public class SignInCommand : IRequest<Response<bool>>, IValidatable
 ```
 The execution of the validator is handled by the mediatR pipeline. The `ValidationBehavior` class is responsible for executing the validator. This class inherits from the `IPipelineBehavior` that is provided by the mediatR packages and is registered in the framework project configuration.
 
+# Starting a new module
+To start a new module you can use the reference implementation. This implementation contains all the basic building blocks that are needed to start a new module.
+## Project structure
+```
+Project
+|--- Commands
+|----- Command
+|------- Command.cs
+|------- CommandHandler.cs
+|------- CommandValidator.cs
+|--- Configuration
+|----- ModuleConfiguration.cs
+|--- Controllers
+|----- Controller.cs
+|--- Database
+|----- Repositories
+|------- Interfaces
+|--------- IRepository.cs
+|------- Repository.cs
+|----- DbContext.cs
+|--- Dto's
+|----- Dto.cs
+|--- Mappers
+|----- MapperProfile.cs
+|--- Queries
+|----- Query
+|------- Query.cs
+|------- QueryHandler.cs
+|------- QueryResult.cs
+|   GlobalUsings.cs
+```
 
 
 # Tools
