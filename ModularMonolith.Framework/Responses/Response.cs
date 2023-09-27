@@ -3,11 +3,14 @@ using ModularMonolith.Framework.Extensions;
 
 namespace ModularMonolith.Framework.Responses;
 
-public class Response<T>
-{
-    public List<Message> Messages { get; } = new List<Message>();
-    public bool IsSuccess => !Messages.Any();
 
+public abstract class Response
+{
+    public List<Message> Messages { get; protected set; } = new List<Message>();
+    public bool IsSuccess => !Messages.Any();
+}
+public class Response<T> : Response
+{
     private List<T> _objects;
 
     public T? Value { 

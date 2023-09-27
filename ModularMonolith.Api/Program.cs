@@ -1,6 +1,7 @@
-using ModularMonolith.Framework.Extensions;
+using ModularMonolith.Framework.Configuration;
 using ModularMonolith.Modules.Companies.Configuration;
 using ModularMonolith.Modules.Visits.Configuration;
+using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,16 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Add Serilog
+builder.Services.AddSerilog(cfg =>
+{
+    cfg.ReadFrom.Configuration(builder.Configuration);
+    
+});
+builder.Host.UseSerilog();
+
+
 
 var app = builder.Build();
 

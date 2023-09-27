@@ -45,7 +45,6 @@ app.publish/
 *.vssscc
 .builds
 *.pidb
-*.log
 *.scc
 project.lock.json
 

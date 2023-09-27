@@ -13,6 +13,7 @@ The following nuget packages are used in this solution:
 - MediatR (https://github.com/jbogard/MediatR)
 - AutoMapper (https://automapper.org/)
 - FluentValidation (https://docs.fluentvalidation.net/en/latest/)
+- SeriLog (https://serilog.net/)
 ### unit testing
 - Xunit
 ### Database

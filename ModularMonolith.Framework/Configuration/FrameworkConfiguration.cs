@@ -10,6 +10,8 @@ public static class FrameworkConfiguration
     public static void AddFramework(this IServiceCollection services)
     {
         services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
+        
+        services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
         services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
     }
 }

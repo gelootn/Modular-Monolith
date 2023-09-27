@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ModularMonolith.Entities.Database.Configurations;
 using ModularMonolith.Framework.Database.Entities;
 
 namespace ModularMonolith.Entities.Database;
 
 public class ReadOnlyDbContext : DbContext
 {
-
+    
     public override int SaveChanges() => throw new InvalidOperationException("This is a read-only context");
     public override int SaveChanges(bool b) => throw new InvalidOperationException("This is a read-only context");
     public override Task<int> SaveChangesAsync(CancellationToken token) => throw new InvalidOperationException("This is a read-only context");
@@ -21,13 +22,20 @@ public class ReadOnlyDbContext : DbContext
     }
     
     public IQueryable<TEntity> DbSet<TEntity>() where TEntity : class => Set<TEntity>().AsNoTracking();
-    
+
+
+
+    private void RegisterConfigurations()
+    {
+        
+        
+    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Company>().HasQueryFilter(x=> !x.Deleted);
-        modelBuilder.Entity<Employee>().HasQueryFilter(x=> !x.Deleted);
-        modelBuilder.Entity<Visit>().HasQueryFilter(x=> !x.Deleted);
-        modelBuilder.Entity<Visitor>().HasQueryFilter(x=> !x.Deleted);
+        modelBuilder.ApplyConfiguration(new VisitEntityConfiguration());
+        modelBuilder.ApplyConfiguration(new EmployeeEntityConfiguration());
+        modelBuilder.ApplyConfiguration(new VisitorEntityConfiguration());
+        modelBuilder.ApplyConfiguration(new CompanyEntityConfiguration());
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
