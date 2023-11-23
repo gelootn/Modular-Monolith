@@ -25,10 +25,22 @@ The following nuget packages are used in this solution:
 ## ModularMonolith.Framework
 This is a supporting project. It contains classes and code that is used by the rest of the application.
 All other projects have a reference to this project, this project can reference no other projects.
+In this project you can find the following items:
+- Behaviors for the mediatr pipeline
+- flag interface for validation
+- Base classes for commands and queries
+- Base classes for generic repositories
+- Extensions for String, ValidationResult and the Response class
+- The Response class that is used to return data from commands and queries
+
 ## ModularMonolith.Entities
 This project contains all entities that are used in the application. This project has a reference to the ModularMonolith.Framework project.
+
 This project also contains the DbContext for the readonly part of the applications. This context knows all entities and can be used to query data between that is controlled by other modules. 
-###ModularMonolith.Api
+
+The DbContext does not have any DbSets defined. All Entities are added through configurations. This way the DbContext can not directly be used to write data to the database. The ```SaveChanges ``` methods are overridden to throw an exception when they are called. This way the DbContext can only be used to query data.
+
+### ModularMonolith.Api
 This is the entry point of the application. It contains the startup class and the link to all modules that are available in the application.
 
 # Modules
@@ -74,7 +86,7 @@ To execute commands and queries this solution uses the MediatR library. This lib
 Commands are by default not validated. To flag a command for validation you can add the `IValidatable` interface to the command. This will make sure that the command is validated before it is executed.
 The validation itself is done by a command validator that is registered in the `ModuleConfiguration` class. 
 
-``` 
+``` csharp
 public class SignInCommand : IRequest<Response<bool>>, IValidatable
 {
     
@@ -113,7 +125,6 @@ Project
 |------- QueryResult.cs
 |   GlobalUsings.cs
 ```
-
 
 # Tools
 ## Nswag studio
